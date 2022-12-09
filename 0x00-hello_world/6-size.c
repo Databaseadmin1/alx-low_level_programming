@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main -Prints size of varios types
+ *
+ * Return: zero
+ */
 int main(void)
 {
 	printf("Size of a char:%lubytes\n", sizeof(char));
