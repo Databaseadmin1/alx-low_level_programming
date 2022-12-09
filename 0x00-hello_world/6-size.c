@@ -6,4 +6,5 @@ int main(void)
 	printf("Size of a long int:%lubytes\n", sizeof(long));
 	printf("size of a float: %lu bytes\n", sizeof(float));
 	printf("Size of a long long int:%lubytes\n", sizeof(long long));
+	return (0);
 }
