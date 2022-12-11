@@ -6,7 +6,7 @@
  *
  * Return:1
  */
-char main(void)
+int main()
 {
 	write("and that piece of art is useful\"");
 	write(" - Dora Korpar, 2015-10-19", stderr);
