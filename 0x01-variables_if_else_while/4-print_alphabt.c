@@ -12,9 +12,7 @@ int main(void)
 	{
 		ch++;
 		if ((ch != 'e') && (ch != 'q'))
-		{
 			putchar(ch);
-		}
 	}
 	return (0);
 }
