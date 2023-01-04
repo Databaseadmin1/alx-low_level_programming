@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	int ch = '0';
+	int n = '0';
 
-	while (ch <= '9')
+	while (n <= '9')
 	{
-		putchar('0' + ch);
-		++ch
+		putchar('0' + n);
+		++n
 		;
 	}
 	putchar('\n');
