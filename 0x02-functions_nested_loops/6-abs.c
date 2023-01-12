@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - prints absolute value of a number
- * @n: num to be calculated  
+ * @n: num to be calculated
  * Return: n.
  */
 int _abs(int n)
@@ -15,6 +15,6 @@ int _abs(int n)
 		return (n);
 	}
 	else if (n < 0)
-	n = -1 * n;
+		n = -1 * n;
 	return (n);
 }
