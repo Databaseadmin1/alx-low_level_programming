@@ -7,16 +7,13 @@ int _abs(int n)
 {
 	if (n > 0)
 	{
-		_putchar(n + '0');
+		return (n);
 	}
 	else if (n == 0)
 	{
-		_putchar('0');
+		return(n);
 	}
 	else if (n < 0)
-	{
-		n = -1 * n;
-		putchar(n + '0');
-	}
-return (n);
+	n = -1 * n;
+	return (n);
 }
