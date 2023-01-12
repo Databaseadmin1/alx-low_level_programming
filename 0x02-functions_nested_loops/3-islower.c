@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - check if c is lowe
+ * @c: variable to be checked
  * Return: 1 if c is lower and 0 if not
  */
 int _islower(int c)
